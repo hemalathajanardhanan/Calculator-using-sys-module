@@ -1,12 +1,12 @@
 import sys
 operation= sys.argv[0]
-operand1=int(sys.argv[1])
-operand2=int(sys.argv[2])
-if operation=="add":
-    print(operand1+operand2)
-elif operation=="sub":
-    print(operand1-operand2)
-elif operation=="mul":
-    print(operand1*operand2)
-elif operation=="div":
-    print(operand1/operand2)
+num1=int(sys.argv[1])
+num2=int(sys.argv[2])
+if operation=="addition":
+    print(num1+num2)
+elif operation=="subtraction":
+    print(num1-num2)
+elif operation=="multiplication":
+    print(num1*num2)
+elif operation=="division":
+    print(num1/num2)
