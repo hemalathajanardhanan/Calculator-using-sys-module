@@ -1,4 +1,6 @@
 import sys
+if len(sys.argv)!=4:
+    sys.exit(1)
 operation= sys.argv[0]
 num1=int(sys.argv[1])
 num2=int(sys.argv[2])
